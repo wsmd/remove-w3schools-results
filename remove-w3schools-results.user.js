@@ -1,13 +1,17 @@
 // ==UserScript==
 // @name         remove-w3schools-results
-// @namespace    https://github.com/wsmd/remove-w3schools-results
-// @version      0.1.0
-// @icon         https://raw.githubusercontent.com/wsmd/remove-w3schools-results/master/icon.png
-// @description  Removes W3Schools links from Google search results
+// @version      0.1.1
 // @author       Waseem Dahman
+// @description  Removes W3Schools links from Google search results
+// @homepageURL  https://github.com/wsmd/remove-w3schools-results
+// @namespace    https://github.com/wsmd/remove-w3schools-results
+// @supportURL   https://github.com/wsmd/remove-w3schools-results/issues
+// @updateURL    https://github.com/wsmd/remove-w3schools-results/raw/master/remove-w3schools-results.user.js
+// @downloadURL  https://github.com/wsmd/remove-w3schools-results/raw/master/remove-w3schools-results.user.js
+// @icon         https://raw.githubusercontent.com/wsmd/remove-w3schools-results/master/icon.png
 // @run-at       document-end
-// @match        https://*.google.com/search?*
 // @grant        none
+// @include      *://*.google.*/search?*
 // ==/UserScript==
 
 (function () {
